@@ -1,0 +1,28 @@
+{
+  "name": "cryptorates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/cryptortes.ts",
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "bin": {
+    "cryptorates": "./bin/cryptorates-key.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/color": "^3.0.3",
+    "@types/commander": "^2.9.1",
+    "@types/inquirer": "^8.2.1",
+    "@types/node": "^17.0.39",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "colors": "^1.4.0",
+    "commander": "^2.11.0",
+    "csvtojson": "^2.0.10",
+    "inquirer": "^8.2.4"
+  }
+}
